@@ -17,4 +17,4 @@
 	
 	`jupyter lab --ip 0.0.0.0 --no-browser --allow-root # inside container`
 	
-	`http://127.0.0.1:8888/lab?token=… # Past into browser`
+	`http://127.0.0.1:8888/lab?token=… # Paste into browser`

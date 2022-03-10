@@ -7,3 +7,4 @@
 .ipython/
 .ipynb_checkpoints/
 .local/
+.bash_history

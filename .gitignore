@@ -1,9 +1,9 @@
 *.DS_Store
 .ipynb_checkpoints
-.cache/*
-.config/*
-.fltk/*
-.jupyter/*
-.ipython/*
-.ipynb_checkpoints/*
-.local/*
+.cache/
+.config/
+.fltk/
+.jupyter/
+.ipython/
+.ipynb_checkpoints/
+.local/

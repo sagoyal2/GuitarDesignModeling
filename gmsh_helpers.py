@@ -14,7 +14,8 @@ from dolfinx.io import extract_gmsh_geometry, extract_gmsh_topology_and_markers,
 from dolfinx.cpp.io import perm_gmsh, distribute_entity_data
 from dolfinx.cpp.mesh import to_type, cell_entity_type
 from dolfinx.cpp.graph import AdjacencyList_int32
-from dolfinx.cpp.mesh import create_meshtags, create_mesh
+from dolfinx.cpp.mesh import create_meshtags
+from dolfinx.mesh import create_mesh
 
 
 def read_from_msh(filename: str, cell_data=False, facet_data=False, gdim=None):
